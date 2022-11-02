@@ -1,6 +1,6 @@
 #  Sonoff Dual R3 v2
 
-An **ESP32** program for obtaining data from a **Sonoff Dual R3 v2**  with a **bl0939** chip inside.
+An **Arduino** program for obtaining data from a **Sonoff Dual R3 v2**  with a **bl0939** chip inside.
 
 #  Features
 
