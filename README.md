@@ -5,8 +5,8 @@ An **Arduino** program for obtaining data from a **Sonoff Dual R3 v2**  with a *
 #  Features
 
  - Initializes the bl0939
- - Requests data
- - Reads the data 
+ - requests data
+ - reads the data 
  - does a CRC check
  - decodes the data string
  - converts the data to real values
