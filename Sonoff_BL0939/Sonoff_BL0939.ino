@@ -1,4 +1,10 @@
-
+/***************************************************************************
+  Gets Sensor data from the Sonoff Dual R3 v2 with the bl0939 Chip.
+  Display them via Telnet
+  
+  Written by Stefan Meier based on examples taken from:
+  Tasmota, ESPHome & https://github.com/RDobrinov/bl0940
+ ***************************************************************************/
 
 /*
    More information
