@@ -160,7 +160,7 @@ void Read_Data() {
     serial_in_byte = Serial2.read();
     // TelnetPrint.print("Serial Byte: " + String(serial_in_byte, HEX));
 
-    if (serial_in_byte == PACKET_HEADER) {
+    if (serial_in_byte == PACKET_HEADER && !found_header) {
       byte_counter = 0;
       found_header = true;
       TelnetPrint.println("Paket Header found");
